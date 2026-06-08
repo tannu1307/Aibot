@@ -1,0 +1,10 @@
+2026-06-08 08:33:54 | INFO     | trading_bot | Logging initialised → logs/trading_bot_20260608.log
+2026-06-08 08:33:54 | INFO     | trading_bot.orders | Order validated | BUY MARKET BTCUSDT qty=0.001 price=None stopPrice=None
+2026-06-08 08:33:54 | INFO     | trading_bot.orders | Order placed successfully | orderId=9999001 status=FILLED executedQty=0.001 avgPrice=42500.00
+2026-06-08 08:33:54 | INFO     | trading_bot.orders | Order validated | SELL LIMIT BTCUSDT qty=0.001 price=45000 stopPrice=None
+2026-06-08 08:33:54 | INFO     | trading_bot.orders | Order placed successfully | orderId=9999002 status=NEW executedQty=0 avgPrice=0
+2026-06-08 08:33:54 | INFO     | trading_bot.orders | Order validated | BUY MARKET BTCUSDT qty=10 price=None stopPrice=None
+2026-06-08 08:33:54 | ERROR    | trading_bot.orders | Binance API error | code=-2019 msg=Margin is insufficient.
+2026-06-08 08:33:54 | WARNING  | trading_bot.orders | Validation failed: Price is required for LIMIT orders.
+2026-06-08 08:33:57 | INFO     | trading_bot | Logging initialised → logs/trading_bot_20260608.log
+2026-06-08 08:33:57 | INFO     | trading_bot | Logging initialised → logs/trading_bot_20260608.log
